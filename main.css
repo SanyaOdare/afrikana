@@ -1,0 +1,205 @@
+/* Custom Style Sheet */
+
+body {
+    background: blue;;
+}
+
+/* Navbar Decoration */
+
+/* .mynav {
+    background-image: linear-gradient(to right, red, yellow, green);
+} */
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    color: purple !important;
+    text-shadow: 3px 3px 5px #777;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.mynav a {
+    margin-right: 30px;
+    color: #181174;
+    border-bottom: 2px solid transparent;
+}
+
+.mynav a:hover {
+    border-bottom: 2px solid #e42448;
+}
+.active a {
+    border-bottom: 2px solid #181174;
+}
+
+.mrt a {
+    background: #181174;
+    color: #fff !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;
+    box-shadow: 3px 3px 5px #777;
+    width: 120px;
+    text-align: center;
+}
+
+.mrt a:hover {
+    background: #e42448;       
+    box-shadow: none;    
+}
+
+.navbar-brand:hover {
+    border-bottom: 2px solid transparent !important;
+}
+
+@media only screen and (max-width: 1140px) {
+    .navbar-brand {
+    margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .mrt a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+}
+
+/* Slider Section */
+
+.carousel-caption {
+    margin-bottom: 10%;
+    padding: 50px 100px;
+    width: 50%;
+}
+
+.carousel-caption h5 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+}
+
+.drk:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.3;
+}
+
+.ccd {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (max-width: 1600px) {
+    .carousel-caption {
+    margin-bottom: 10%;
+    width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .carousel-caption {
+    margin-bottom: 5%;    
+    }
+    .carousel-caption h5 {
+    font-size: 30px;    
+}
+
+.carousel-caption p {
+    font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 960px) {
+    .carousel-caption {
+    margin-bottom: 0%;    
+    }
+    .btn-primary, .btn-success, .btn-danger {
+        width: 150px !important;
+        margin: 5px 8px !important;
+        padding: 5px 10px !important;
+    }
+    .c3 {
+        margin-bottom: -5%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .btn {
+        display: none;
+    }
+    .carousel-caption {
+        margin-bottom: 5%;
+        padding: 25px;
+    }
+    .carousel-caption h5 {
+        font-size: 20px;
+    }
+    .carousel-caption p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .carousel-caption {
+        margin-bottom: 0%;
+        
+    }
+}
+
+/* Buttons */
+.btn-primary {
+    background: #e42448;
+    border-color: transparent !important;
+    color: #fff !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;    
+    width: 200px;
+    text-align: center;
+    margin: 10px 10px; /* usual order is top left bottom right*/
+}
+
+.btn-primary:hover {
+    background: #731397;    
+}
+
+.btn-success {
+    background: #181174;
+    border-color: transparent !important;
+    color: #fff !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;    
+    width: 200px;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.btn-success:hover {
+    background: #731397;    
+}
+
+.btn-danger {
+    background: #731397;
+    border-color: transparent !important;
+    color: #fff !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;    
+    width: 200px;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.btn-danger:hover {
+    background: #e42448;    
+}
+
+.frt {
+    float: right;
+}
