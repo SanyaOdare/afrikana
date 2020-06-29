@@ -6,9 +6,14 @@ body {
 
 /* Navbar Decoration */
 
-/* .mynav {
-    background-image: linear-gradient(to right, red, yellow, green);
-} */
+.trn {
+    background: transparent !important;
+    z-index: 90;
+}
+
+.mynav {
+    background: #fff !important;
+}
 
 .navbar-brand {
     font-size: 40px;
@@ -28,6 +33,21 @@ body {
 .mynav a:hover {
     border-bottom: 2px solid #e42448;
 }
+
+.trn a {
+    margin-right: 30px;
+    color: #fff !important;
+    border-bottom: 2px solid transparent;
+}
+
+.trn a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.hactive a {
+    border-bottom: 2px solid #fff;
+}
+
 .active a {
     border-bottom: 2px solid #181174;
 }
@@ -65,6 +85,10 @@ body {
 }
 
 /* Slider Section */
+
+.bd-example {
+    margin-top: -100px;
+}
 
 .carousel-caption {
     margin-bottom: 10%;
