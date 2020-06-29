@@ -57,14 +57,14 @@ body {
     color: #fff !important;
     border-radius: 50px;
     padding: 10px 25px !important;
-    box-shadow: 3px 3px 5px #777;
     width: 120px;
     text-align: center;
 }
 
 .mrt a:hover {
-    background: #e42448;       
-    box-shadow: none;    
+    background: #e42448;
+    box-shadow: none;
+    border-bottom: 2px solid transparent;
 }
 
 .navbar-brand:hover {
@@ -87,7 +87,7 @@ body {
 /* Slider Section */
 
 .bd-example {
-    margin-top: -100px;
+    margin-top: -103px;
 }
 
 .carousel-caption {
