@@ -1,5 +1,28 @@
 /* Custom Style Sheet */
 
+.c-logo {
+    width: 40px;
+    margin-right: 5px;
+}
+
+/* Typography */
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #009f4a;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
 /* Spacing */
 .gap100 {
     padding: 70px 0px;
@@ -19,7 +42,7 @@
 .navbar-brand {
     font-size: 40px;
     font-weight: bold;
-    color: purple !important;
+    color: #009f4a !important;
     text-shadow: 3px 3px 5px #777;
     margin-left: 100px;
     margin-top: 5px;
@@ -192,11 +215,11 @@
 }
 
 .btn-primary:hover {
-    background: #731397;    
+    background: #009f4a;    
 }
 
 .btn-success {
-    background: #181174;
+    background: #ffcc29;
     border-color: transparent !important;
     color: #fff !important;
     border-radius: 50px;
@@ -207,11 +230,11 @@
 }
 
 .btn-success:hover {
-    background: #731397;    
+    background: #009f4a;    
 }
 
 .btn-danger {
-    background: #731397;
+    background: #009f4a;
     border-color: transparent !important;
     color: #fff !important;
     border-radius: 50px;
@@ -228,3 +251,12 @@
 .frt {
     float: right;
 }
+
+/* Footer */
+
+footer {
+    background: #444;
+    padding: 30px;
+}
+
+/* #009f4a  #ffcc29 */
