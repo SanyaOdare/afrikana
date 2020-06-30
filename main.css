@@ -1,5 +1,10 @@
 /* Custom Style Sheet */
 
+/* Spacing */
+.gap100 {
+    padding: 70px 0px;
+}
+
 /* Navbar Decoration */
 
 .trn {
