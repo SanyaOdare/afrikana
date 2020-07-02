@@ -40,10 +40,8 @@ p {
 }
 
 .navbar-brand {
-    font-size: 40px;
-    font-weight: bold;
-    color: #009f4a !important;
-    text-shadow: 3px 3px 5px #777;
+    font-size: 40px;    
+    color: #009f4a !important;    
     margin-left: 100px;
     margin-top: 5px;
 }
@@ -259,4 +257,19 @@ footer {
     padding: 30px;
 }
 
-/* #009f4a  #ffcc29 */
+.copy {
+    padding-top: 30px;
+}
+
+.smed i {
+    color: #fff;
+    font-size: 30px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.smed i:hover {
+    color: #e42448;
+}
+
+/* green = #009f4a  |  yellow = #ffcc29 */
