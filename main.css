@@ -327,4 +327,14 @@ footer {
     padding: 5px;
 }
 
+.tm i:hover {
+    color: grey;
+}
+
+/* Gallery */
+
+.pic {
+    padding: 10px;
+}
+
 /* green = #009f4a  |  yellow = #ffcc29 */
