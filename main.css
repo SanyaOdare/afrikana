@@ -37,31 +37,39 @@ p {
 }
 
 /* Spacing */
+
 .gap100 {
     padding: 70px 0px;
 }
 
+.lttl {
+    margin-top: -50px;
+    padding-bottom: 20px;
+}
+
 /* Navbar Decoration */
 
+.bg-light {
+    background-color: transparent !important;
+}
+
 .trn {
-    background: transparent !important;
-    z-index: 90;
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0));
+    z-index: 99;
 }
 
 .mynav {
     background: #fff !important;
 }
 
-.navbar-brand {
-    font-size: 40px;    
-    color: #009f4a !important;    
+.navbar-brand {     
     margin-left: 100px;
-    margin-top: 5px;
+    margin-top: -5px;
 }
 
 .mynav a {
     margin-right: 30px;
-    color: #181174;
+    color: #181174 !important;
     border-bottom: 2px solid transparent;
 }
 
@@ -123,6 +131,7 @@ p {
 
 #phdr {
     background-image: linear-gradient(#181174, #731397);
+    margin-top: 103px;
 }
 
 .h2w {
@@ -143,11 +152,11 @@ p {
     text-decoration: none;
 }
 
-/* Slider Section */
+/* Slider Section
 
 .bd-example {
     margin-top: -103px;
-}
+}*/
 
 .carousel-caption {
     margin-bottom: 10%;
