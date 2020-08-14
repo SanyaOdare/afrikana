@@ -248,7 +248,7 @@ p {
 
 /* Buttons */
 .btn-primary {
-    background: #e42448;
+    background: #181174;
     border-color: transparent !important;
     color: #fff !important;
     border-radius: 50px;
@@ -404,4 +404,56 @@ footer {
 .prtabs {
     padding-top: 50px;
 }
+
+.card .btn {
+    margin: auto !important;
+}
+
+@media only screen and (max-width: 767px){
+    .mcard {
+        margin: 0px;
+    }
+    .card {
+        margin: 10px;
+    }
+}
+
+/* Services */
+
+.serv {
+    padding: 25px;
+}
+
+.srv i {
+    font-size: 40px;
+    color: #181174;
+    float: left;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+/* Blurb */
+
+#blurb {
+    background-image: linear-gradient(#181174, #731397);
+}
+
+.blb i {
+    font-size: 60px;
+    padding: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.blb {
+    padding: 25px;
+}
+
+.blp {
+    min-height: 125px;
+}
+
+/* Features */
+
 /* green = #009f4a  |  yellow = #ffcc29 */
