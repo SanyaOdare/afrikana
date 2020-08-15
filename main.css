@@ -130,7 +130,7 @@ p {
 /* Page Header */
 
 #phdr {
-    background-image: linear-gradient(#181174, #731397);
+    background-image: linear-gradient(#181174, #046b67);
     margin-top: 103px;
 }
 
@@ -321,7 +321,7 @@ footer {
 /* Team Section */
 
 #team {
-    background-image: linear-gradient(#181174, #731397);
+    background-image: linear-gradient(#181174, #046b67);
 }
 
 .tm {
@@ -331,7 +331,7 @@ footer {
 }
 
 .tm i {
-    color: #731397;
+    color: #046b67;
     font-size: 30px;
     padding: 5px;
 }
@@ -363,11 +363,11 @@ footer {
 /* Pricing Tables */
 
 #price {
-    background-image: linear-gradient(#181174, #731397);
+    background-image: linear-gradient(#181174, #046b67);
 }
 
 .card {
-    background-image: linear-gradient(#731397, #181174);
+    background-image: linear-gradient(#046b67, #181174);
     border: 2px solid #fff;
     box-shadow: 5px 5px 10px #222;
 }
@@ -435,7 +435,7 @@ footer {
 /* Blurb */
 
 #blurb {
-    background-image: linear-gradient(#181174, #731397);
+    background-image: linear-gradient(#181174, #046b67);
 }
 
 .blb i {
@@ -456,4 +456,15 @@ footer {
 
 /* Features */
 
-/* green = #009f4a  |  yellow = #ffcc29 */
+#features {
+    background-image: url(img/ft001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+.fbtn {
+    padding-top: 12%;
+}
+
+/* green = #009f4a , #046b67  |  yellow = #ffcc29 */
