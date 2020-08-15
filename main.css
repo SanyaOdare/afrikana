@@ -467,4 +467,12 @@ footer {
     padding-top: 12%;
 }
 
+#flist {
+    background-image: linear-gradient(#181174, #046b67);
+}
+
+@media img {
+    max-width: 150px;
+}
+
 /* green = #009f4a , #046b67  |  yellow = #ffcc29 */
