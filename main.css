@@ -277,6 +277,13 @@ p {
     background: #009f4a;    
 }
 
+.btn-success:focus {
+    background: #181174 !important;
+    box-shadow: 5px 5px 15px #444;
+}
+
+
+
 .btn-danger {
     background: #009f4a;
     border-color: transparent !important;
@@ -285,11 +292,16 @@ p {
     padding: 10px 25px !important;    
     width: 200px;
     text-align: center;
-    margin: 10px 10px;
+    margin: 10px 15px;
 }
 
 .btn-danger:hover {
     background: #e42448;    
+}
+
+.btn-danger:focus {
+    background: #009f4a !important;
+    box-shadow: 5px 5px 15px #444;
 }
 
 .frt {
@@ -299,7 +311,7 @@ p {
 /* Footer */
 
 footer {
-    background: #444;
+    background: #222;
     padding: 30px;
 }
 
@@ -490,6 +502,52 @@ footer {
 .btn-link i {
     font-size: 26px;
     margin-right: 10px;
+}
+
+/* Pre Footer */
+
+#pfooter {
+    background-color: #181174;
+}
+
+.pft {
+    border-bottom: 1px solid #fff;
+    padding-top: 20px;
+}
+
+.pft a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Address */
+
+.pft i {
+    margin-right: 10px;
+    color: #009f4a;
+}
+
+.pft .btn {
+    float: right;
+    margin-top: -25px;
+    text-transform: none;
+}
+
+/* Contact */
+
+#chero {
+    background-image: url(img/ctbg-001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+#cont {
+    background-image: linear-gradient(#181174, #046b67);
+}
+
+.cad i {
+    color: #e42448;
 }
 
 /* green = #009f4a , #046b67  |  yellow = #ffcc29 */
